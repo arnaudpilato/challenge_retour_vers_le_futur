@@ -23,7 +23,7 @@
 
     $time = date_diff($presentTime, $destinationTime);
     $energy = $time->format('%a') * (60 * 24);
-    echo "You need " . round($energy / 1000) . " liters of gasoline for your destination";
+    echo "You need " . round($energy / 10000) . " liters of gasoline for your destination";
     ?>
 </section>
 </body>
